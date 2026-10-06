@@ -210,6 +210,20 @@ export default function Contact() {
                     className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-[#c7f943] transition-colors"
                   >
                     <option
+                      value="$500 - $1,000"
+                      className="bg-zinc-900 text-white"
+                    >
+                      $500 - $1,000
+                    </option>
+
+                    <option
+                      value="$1,000 - $3,000"
+                      className="bg-zinc-900 text-white"
+                    >
+                      $1,000 - $3,000
+                    </option>
+
+                    <option
                       value="$3,000 - $5,000"
                       className="bg-zinc-900 text-white"
                     >
